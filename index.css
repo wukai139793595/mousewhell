@@ -1,0 +1,64 @@
+
+html, body, ul, li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.contain{
+    position: relative;
+    width: 380px;
+    height: 400px;
+    border: 1px solid black;
+    margin: 50px auto;
+    overflow: hidden;
+}
+.content{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 350px;
+    background-color: pink;
+}
+.scrollBox{
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 28px;
+    height: 400px;
+    border: 1px solid black;
+}
+.ico{
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    box-sizing: border-box;
+    border: 1px solid black;
+}
+.up{
+    left: 0;
+    top: 0;
+    background-image: url(up.png);
+    background-size: 100% 100%;
+}
+.down{
+    left: 0;
+    bottom: 0;
+    background-image: url(down.png);
+    background-size: 100% 100%;
+}
+.scroll{
+    position: absolute;
+    width: 30px;
+    height: 340px;
+    margin-top: 30px;
+    background-color: #ccc;
+}
+.bar{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 30px;
+    height: 40px;
+    background-color:darkcyan;
+}
+
