@@ -1,3 +1,6 @@
+require('./index.css');
+// require('./index.html');
+
 (function () {
     var contain = document.getElementsByClassName('contain')[0];
     var content = document.getElementsByClassName('content')[0];
